@@ -1,0 +1,34 @@
+{
+  "name": "@ts-data/queue",
+  "version": "1.0.0",
+  "description": "The Queue (FIFO) data structure in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && alsatian test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts-data/queue.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "data",
+    "structure",
+    "stack",
+    "LIFO"
+  ],
+  "author": {
+    "name": "James Monger",
+    "email": "jameskmonger@hotmail.co.uk",
+    "url": "www.jamesmonger.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ts-data/queue/issues"
+  },
+  "homepage": "https://github.com/ts-data/queue#readme",
+  "devDependencies": {
+    "alsatian": "^1.0.0-alpha.8",
+    "typescript": "^1.8.10"
+  }
+}
