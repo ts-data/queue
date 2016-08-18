@@ -1,6 +1,6 @@
 {
   "name": "ts-data.queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Queue (FIFO) data structure in TypeScript.",
   "main": "queue.js",
   "typings": "queue.d.ts",
