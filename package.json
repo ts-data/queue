@@ -2,10 +2,16 @@
   "name": "@ts-data/queue",
   "version": "1.0.0",
   "description": "The Queue (FIFO) data structure in TypeScript.",
-  "main": "index.js",
+  "main": "queue.js",
+  "typings": "queue.d.ts",
   "scripts": {
-    "test": "tsc && alsatian test.js"
+    "test": "tsc && alsatian \"test/*.test.js\"",
+    "prepublish": "tsc"
   },
+  "files": [
+    "queue.js",
+    "queue.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ts-data/queue.git"
