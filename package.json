@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/ts-data/queue#readme",
   "devDependencies": {
-    "alsatian": "^1.0.0-alpha.8",
+    "alsatian": "1.0.0-alpha.8",
     "typescript": "^1.8.10"
   }
 }
